@@ -31,7 +31,7 @@ function gallery2 (fonts1, graphics1, logos1) {
   return fonts1 + graphics1 + logos1; 
 }
 //objects with properties//
-const font = {typeface: "Arial", weight: "16px", color:"black"}
+const lettering = {typeface: "Arial", weight: "16px", color:"black"}
 const graphic = {type: "raster" }
 const logo = {type: "vector"}
 
