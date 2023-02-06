@@ -32,8 +32,8 @@ function gallery2 (fonts1, graphics1, logos1) {
 }
 //objects with properties//
 const font = {typeface: "Arial", weight: "16px", color:"black"}
-const graphic = {type: "vector" }
-const graphic = {type: "raster"}
+const graphic = {type: "raster" }
+const logo = {type: "vector"}
 
 //Event//
 //Check index.html for event - font change in size
