@@ -50,6 +50,81 @@
 
       </p>
       <br><br>
+      <h3>Assignment: Module 4</h3>
+      <br>
+      <hr>
+      <br>
+      <p style="text-align:left">
+        <br>
+        <p id="service1">
+          <br>
+        </p>
+        <script>
+          const myGraphics2 = 90;
+          let service;
+          if (myGraphics2 < 45) {
+            service = "You need to pick 1 more option!";
+          }  else {
+            service = "You are ready for a graphics consultation!";
+          }
+          document.getElementById("service1").innerHTML = service;
+        </script>
+        <br>
+        <br>
+        Javascript String Method
+        <br>
+        <br>
+        <button onclick="myFunction()">Click to Change</button>
+        <p id="service2">creating destiny graphics</p>
+        <script>
+          function myFunction() {
+            let text = document.getElementById("service2").innerHTML;
+            document.getElementById("service2").innerHTML =
+            text.toUpperCase();
+          }
+          </script>
+           <br>
+           <br>
+          <p id="service3"></p>
+          <script>
+            let cdg = 999.2345;
+            document.getElementById("service3").innerHTML =
+            cdg.toFixed(0) + "<br>" +
+            cdg.toFixed(2); 
+          </script>
+          <br>
+          <br>
+          <p id="service4"></p>
+          <br>
+          <script>
+            let workService;
+            switch (new Date().getDay()) {
+              case 0:
+              workService = "Graphics";
+                break;
+              case 1:
+              workService = "Logo";
+                break;
+              case 2:
+              workService = "Photography";
+                break;
+              case 3:
+              workService = "Videography";
+                break;
+              case 4:
+              workService = "Calligraphy";
+                break;
+              case 5:
+              workService = "Illustration";
+                break;
+              case  6:
+              workService = "No Service";
+            }
+            document.getElementById("service4").innerHTML = "I need this service: " + workService;
+            </script>
+            
+      </p>
+      <br><br>
     </div>
   </section>
   <footer>
