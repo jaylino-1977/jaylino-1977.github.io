@@ -42,3 +42,9 @@ h4 {font-size: 1.4em;color: rgb(52, 97, 152)}
 h5 {font-size: 1.2em;color: rgb(109, 109, 109)}
 h6 {font-size: 1.0em;color: rgb(109, 109, 109)}
 p {font-size: 1.2em;color: rgb(109, 109, 109)}
+
+.change {
+    color: blue;
+    font-size: 5em;
+    border: solid 1px;
+}

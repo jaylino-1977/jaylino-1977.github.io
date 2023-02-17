@@ -48,28 +48,45 @@
   //}
 //};
 //******************************** Module 4 Assigment ***********************************/
-const myGraphics = 90;
-const myLogos = 299;
-const myPhotography = 75;
-const myVideography = 120;
-const myCalligraphy = 199;
-const myIllustration = 80;
+//const myGraphics = 90;
+//const myLogos = 299;
+//const myPhotography = 75;
+//const myVideography = 120;
+//const myCalligraphy = 199;
+//const myIllustration = 80;
 
-const job = "graphics";
-const job2 = "logo";
-const job3 = "photography";
-const job4 = "videography";
-const job5 = "calligraphy";
-const job6 = "illustration";
+//const job = "graphics";
+//const job2 = "logo";
+//const job3 = "photography";
+//const job4 = "videography";
+//const job5 = "calligraphy";
+//const job6 = "illustration";
 
-const workFee = myGraphics + job;
-console.log(`I need a quote for ${job2}, ${job3} and ${job5}`);
-console.log(workFee);
+//const workFee = myGraphics + job;
+//console.log(`I need a quote for ${job2}, ${job3} and ${job5}`);
+//console.log(workFee);
 
-if (myGraphics < 45) {
-  console.log("You need to pick 1 more option!");
-}  else {
-  console.log("You are ready for a graphics consultation!");
-}
+//if (myGraphics < 45) {
+  //console.log("You need to pick 1 more option!");
+//}  else {
+  //console.log("You are ready for a graphics consultation!");
+//}
 
- 
+ //******************************** Module 5 Assigment ***********************************/
+
+ //************* For Loop  ********************/
+ const services = ["graphics", "logo", "photography", "videography", "calligraphy", "illustration",]
+
+ for (service of services) {
+   console.log(service);
+   if(service === 'photography') {
+   console.log(`I'm interested in photography`);
+    break;
+  }
+ }
+//************* While Loop ********************/
+//See index.html file
+
+
+//***************** CSS/Js**************************/
+//See index.html file

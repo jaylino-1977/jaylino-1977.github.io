@@ -125,6 +125,50 @@
             
       </p>
       <br><br>
+      <h3>Assignment: Module 5</h3>
+      <br>
+      <hr>
+      <br>
+      <p id="services5"></p>
+      <p style="text-align:left">
+        <script>
+          let text = "";
+          let i = 1000;
+          while (i < 1010) {
+            text += "<br>The price is " + i;
+            i++;
+          }
+          document.getElementById("services5").innerHTML = text;
+          </script>
+        <br><br>
+        <p id="p1">Vision is Purpose in Pictures</p>
+<p id="p2">Vision is Purpose in Pictures</p>
+        <script>
+          document.getElementById("p2").style.color = "blue";
+          </script>
+ <br><br>
+ <h1 id="name1">Shema Israel Adonai Eloheinu Adonai Echad</h1>
+<button type="button" 
+onclick="document.getElementById('name1').style.color = 'orange'">
+Click Me!</button>
+      </p>
+      <br><br>
+      
+      <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+      style="background-color:#8e8e8e;width:30%;height:20px;padding:40px;margin-left:auto;margin-right:auto;color:white;">
+      Mouse Over Me</div>
+
+
+      <script>
+        function mOver(obj) {
+          obj.innerHTML = "Hear oh Israel the Lord our God is One."
+        }
+        
+        function mOut(obj) {
+          obj.innerHTML = "Mouse Over Me"
+        }
+        </script>
+      <br><br>
     </div>
   </section>
   <footer>
