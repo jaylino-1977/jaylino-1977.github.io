@@ -169,6 +169,72 @@ Click Me!</button>
         }
         </script>
       <br><br>
+      <br>
+      <h3>Assignment: Module 6
+      </h3>
+      <br>
+      <hr>
+      <br>
+      <h2>Array and Array Methods</h2>
+      <br>
+      <p id="services6"></p>
+      
+      <br> 
+      <p style="text-align:left">
+        <script>
+          const graphicservices = ["Logo", "Illustration", "Calligraphy", "Photography", "Videography"];
+          document.getElementById("services6").innerHTML = graphicservices;
+          </script>
+        <br>
+        <br>
+        <br>
+        <script>
+          const graphicservices2 = ["Logo", "Illustration", "Calligraphy", "Photography", "Videography"];
+          const serviceSelected = graphicservices2.slice(3);
+          document.getElementById("services6").innerHTML = graphicservices2 + "<br><br>" + serviceSelected;
+          </script>
+<p id="services7"></p>
+<br>
+<br>
+  <script>
+  const graphicservices3 = ["Logo", "Illustration", "Calligraphy", "Photography", "Videography"];
+  document.getElementById("services6").innerHTML = graphicservices3;
+  graphicservices3.push("Charcoal drawing");
+  document.getElementById("services7").innerHTML = graphicservices3;
+  </script>
+      </p>
+      <br><br>
+
+      <h2>Object and Object Methods</h2>
+      <br>
+      <p id="services8"></p>
+      <script>
+        let client = {
+          firstName : "Tanya",
+          lastName  : "Perez",
+          age     : 45,
+          eyeColor  : "brown"
+        };
+        
+        document.getElementById("services8").innerHTML = client.firstName + " " + client.lastName + " " + client.age + " " + client. eyeColor;
+        </script>
+
+<br>
+<br>
+<p id="services9"></p>
+<script>
+  const cleintInfo = {};
+  cleintInfo.firstName = "Alyssa";
+  cleintInfo.lastName = "Perez";
+  cleintInfo.age = 13;
+  cleintInfo.eyeColor = "brown"; 
+  
+  document.getElementById("services9").innerHTML =
+  cleintInfo.firstName + " is " + cleintInfo.age + " years old and has " + cleintInfo.eyeColor + " eyes. ";
+  </script>
+
+<br>
+<br>
     </div>
   </section>
   <footer>
