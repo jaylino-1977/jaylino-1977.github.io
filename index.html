@@ -1,41 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>3 Projects</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-<h2>Project 1: Cats</h2>
-<div class="mainBox">
-   
-    <div class="emoji closed active">🐈</div>
-    <div class="emoji open">😽</div>
-    
-    <div class="emoji closed2 active2">🐈</div>
-    <div class="emoji open2">😹</div>
-    
-    <div class="emoji closed3 active3">🐈</div>
-    <div class="emoji open3">😻</div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project- Digital Media Programming</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class= "headerblock">
+        <nav class= "navblock">
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#media">Media</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    
+                    <img src="assets/iconBG.png" alt="Menu Icon">
+                </a>
+              </div>      
+       </nav>
+       <img src="assets/FinalBG.jpg" alt="Menu Icon" width="100%" max-height="300px">
+       <p id="today"></p>
+    </header>
+    <div id class="backgroundBlock">
+    <section class= "sectionblock">
+        <h2>Welcome to my Project Page Final</h2>
+        <p class= "contentFont">On this page there are various simple Javascript effects. Enjoy! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet cumque nam, aliquam minus eos voluptatem tenetur incidunt praesentium 
+            ratione veritatis ea expedita architecto, vel non ducimus delectus dolor, quaerat saepe!Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Eveniet cumque nam, aliquam minus eos voluptatem tenetur incidunt praesentium ratione veritatis ea expedita architecto, vel non ducimus delectus dolor, quaerat saepe!
+            <br><br>
+        </p>
+        <div id class="sectioncontainer">
+        </div>
+    </section>
+    <section class= "sectionblock2">
+        <div id class="sectioncontainer">
+            <div id class= "sectionbox">
+                <img src="assets/AdobeStock_551593438 [Converted]_tablet.png" width="100px">
+                <h3>Graphic Design</h3>
+                <p style="max-width: 90%;margin-left: auto; margin-right: auto;"> Javacript hover effect on GET STARTED button. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet cumque nam, aliquam minus eos voluptatem tenetur incidunt praesentium 
+                    ratione veritatis ea expedita architecto, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet cumque nam, aliquam minus eos voluptatem tenetur incidunt praesentium 
+                    ratione veritatis ea expedita architecto,</p>
+                    <div id class="button">GET STARTED</div>
+                    
+            </div>
+            <div id class= "sectionbox">
+                <img src="assets//AdobeStock_551593438 [Converted]_camera.png" width="100px">
+                <h3>Photography</h3>
+                    <p style="max-width: 90%;margin-left: auto; margin-right: auto;">Javacript hover effect on GET STARTED button. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet cumque nam, aliquam minus eos voluptatem tenetur incidunt praesentium 
+                        ratione veritatis ea expedita architecto,Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet cumque nam, aliquam minus eos voluptatem tenetur incidunt praesentium 
+                        ratione veritatis ea expedita architecto,</p>
+                        <div id class="button2">GET STARTED</div>
+                        
+                    </div>    
+            <div id class= "sectionbox">
+                <img src="assets//AdobeStock_551593438 [Converted]_Video.png" width="100px">
+                <h3>Videography</h3>
+                    <p style="max-width: 90%;margin-left: auto; margin-right: auto;">Javacript hover effect on GET STARTED button. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet cumque nam, aliquam minus eos voluptatem tenetur incidunt praesentium 
+                        ratione veritatis ea expedita architecto,Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet cumque nam, aliquam minus eos voluptatem tenetur incidunt praesentium 
+                        ratione veritatis ea expedita architecto,</p>
+                        <div id class="button3">GET STARTED</div>
+                        
+            </div>    
+        </div>
+    </section>
+        <section class="sectionblock3">
+            <h2>Logo and Font Design</h2>
+            <p class= "contentFont">Javascript READ MORE/READ LESS content effect. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem 
+                egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, 
+                    auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+            <button onclick="myFunction()" id="myBtn">READ MORE</button>
+                <br><br>
+            </p>
+        </section>
+        <section class="sectionblock4">
+            <div class="slideshow-container">
+                <h2>Testimonials</h2>
+                <div class="mySlides">
+                  <q>Juan's design to our website has given us a professional advantage over other Tex Mex Restaurants in Downtown San Antonio. 
+                      His mobile view option has a nice, easy to navigate look which makes it easy for our on the go clients to access our menu. </q>
+                  <p class="author">- Eric V</p>
+                </div>
+              
+                <div class="mySlides">
+                  <q>CDG is easy to work with and makes sure at every turn that I am getting exactly what I want and need for the look and layout 
+                      for my business. Thank you for your service.</q>
+                  <p class="author">- Micah C</p>
+                </div>
+              
+                <div class="mySlides">
+                  <q>CDG has done great work for us over the past 4 years. Our website was recently converted to a mobile friendly website and it 
+                      looks and functions wonderfully. I definitely recommend CDG for web and graphic design.</q>
+                  <p class="author">- Dr. Ida G</p>
+                </div>
+              
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              
+              <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+              </div>
+        </section>
+        <section class="sectionblock5">
+            <div id="sample">
+                <h2> Retrieving response from document on Server (Ajax)</h2>
+                <button class="button" onclick="loadDoc()">Change Content</button>
+              </div>
+        </section>
 
+        <section class="sectionblock6">
+            <h2>HTML, CSS, Javascript - Post your Comments below:</h2>
+            <br><br><br>
+            <input type="text" id="comment-box" placeholder="Enter comment">
+            <button id="post">Post Response</button>
+            <ul id="unordered">
+        
+            </ul>
     
-</div>
-<h2>Project 2: Gym Membership</h2>
-<div class="mainBox">
-    <div id="info"></div>
-    
-   
-</div>
-
-<h2>Project 3: Red, Green, Blue Hover Effect</h2>
-<br><br>
-<div class="mainBox">
-    <div id="circle">Hover</div>
-    <div id="circle2">Hover</div>
-    <div id="circle3">Hover</div>
+    <script src="code.js"></script>
+        </section>
+    <footer class= "footerblock">
+        <div id class="footercontainer">
+            <div id class="footerbox">
+                <p style="text-align: left;line-height: 2;">Home<br>
+                   About<br>
+                   Contact<br>
+                   Media<br></p>
+            </div>
+            <div id class="footerbox">
+                <p style="text-align: left;line-height: 2;">Graphic Design<br>
+                    Photography<br>
+                    Videography<br>
+                    Merch<br></p>
+            </div>
+            <div id class="footerbox">
+                <p style="text-align: left;line-height: 2;">Juan Lino Perez, Jr<br>
+                    juanlino@gmail.com <br>
+                    &copy;2025 Juan Lino Pere Jr. All rights reserved
+                </p>
+            </div>
+        </div>
+        
+    </footer>
     <script src="app.js"></script>
-</div>
-
-  </body>
+    <script>
+        const d = new Date();
+        document.getElementById("today").innerHTML = d;
+        </script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+        <script>
+            function myFunction() {
+              var dots = document.getElementById("dots");
+              var moreText = document.getElementById("more");
+              var btnText = document.getElementById("myBtn");
+            
+              if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "READ MORE"; 
+                moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "READ LESS"; 
+                moreText.style.display = "inline";
+              }
+            }
+            </script>
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+                
+</body>
 </html>
